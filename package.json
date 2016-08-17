@@ -1,0 +1,24 @@
+{
+  "name": "moin-cron",
+  "description": "timer service for the moin application server",
+  "keywords": [
+    "service",
+    "cron",
+    "timer",
+    "moin"
+  ],
+  "author": "Torben Hartmann",
+  "homapage": "http://moinjs.github.io/",
+  "license": "MIT",
+  "repository": "moinjs/moin-cron",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "version": "1.0.0",
+  "moin": {
+    "type": "service"
+  },
+  "dependencies": {
+    "later": "^1.2.0"
+  }
+}
